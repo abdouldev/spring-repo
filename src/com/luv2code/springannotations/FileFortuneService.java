@@ -27,7 +27,7 @@ public class FileFortuneService implements FortuneService {
         System.out.println("File exists: " + theFile.exists());
 
         // initialize ArrayList
-        theFortunes = new ArrayList<String>();
+        theFortunes = new ArrayList<>();
 
         // read fortunes from file
         try (BufferedReader br = new BufferedReader(
